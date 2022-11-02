@@ -2,6 +2,7 @@ kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: db2u-setup-role
+  namespace: tools
 rules:
   - verbs:
       - get

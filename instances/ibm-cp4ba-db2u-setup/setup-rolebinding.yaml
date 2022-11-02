@@ -5,7 +5,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: db2u-setup
-    namespace: db2
+    namespace: tools
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: Role
@@ -18,7 +18,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: db2u-setup
-    namespace: db2
+    namespace: tools
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole

@@ -2,6 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: db2u-setup
+  namespace: tools
 spec:
   selector: {}
   template:

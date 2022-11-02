@@ -4,7 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "220"
   name: db2u-operator
-  namespace: db2
+  namespace: tools
 spec:
   channel: v2.2
   installPlanApproval: Automatic

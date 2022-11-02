@@ -2,7 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: openldap-phpldapadmin
-  namespace: openldap
+  namespace: tools
   annotations:
     argocd.argoproj.io/sync-wave: "230"
 spec:

@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: openldap-openldap-stack-ha
-  namespace: openldap
+  namespace: tools
   annotations:
     argocd.argoproj.io/sync-wave: "240"
 spec:

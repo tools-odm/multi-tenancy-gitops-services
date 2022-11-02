@@ -4,7 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "230"
   name: db2ucluster-cp4ba
-  namespace: db2
+  namespace: tools
 spec:
   license:
     accept: true
