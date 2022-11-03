@@ -3,7 +3,7 @@ kind: ConsoleLink
 metadata:
   name: decision-server-runtime
 spec:
-  href: https://cpd-cp4ba.itzroks-662001rtxj-6ad8ml-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-east.containers.appdomain.cloud/odm/DecisionService
+  href: https://cpd-tools.itzroks-662001rtxj-6ad8ml-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-east.containers.appdomain.cloud/odm/DecisionService
   location: ApplicationMenu
   applicationMenu:
     section: Operational Decision Manager

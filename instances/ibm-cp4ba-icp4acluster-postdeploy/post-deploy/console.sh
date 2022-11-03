@@ -1,7 +1,7 @@
 #!/bin/bash
 
 INGRESS_DOMAIN=$(oc get IngressController default -n openshift-ingress-operator -o jsonpath='{.status.domain}')
-NAMESPACE=${NAMESPACE:-"cp4ba"}
+NAMESPACE=${NAMESPACE:-tools}
 
 ( echo "cat <<EOF" ; cat cloud-pak-dashboard.yaml_template ;) | \
 INGRESS_DOMAIN=${INGRESS_DOMAIN} \
