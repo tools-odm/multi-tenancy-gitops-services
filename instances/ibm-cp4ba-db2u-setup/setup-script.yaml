@@ -36,3 +36,10 @@ data:
 
       oc rsh c-db2ucluster-cp4ba-db2u-0 /bin/bash < db2cfg.txt
     exit 0
+
+#     READY=$(oc get pod c-db2ucluster-cp4ba-db2u-0 -n db2 --no-headers | grep "1/1" | wc -l)
+# while [ $READY -eq 0 ] 
+# do
+#   sleep 10
+#   READY=$(oc get pod c-db2ucluster-cp4ba-db2u-0 -n db2 --no-headers | grep "1/1" | wc -l)
+# done
